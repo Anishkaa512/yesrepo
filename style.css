@@ -1,0 +1,49 @@
+.body{
+    background-color: #000;
+    color: blue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    text-align:center;
+}
+.heading{
+
+    font-size:2em;
+    color:#5a0606;
+
+}
+.caption{
+    font-size:1.Sem;
+    color:#720f0f;
+    flex-direction:row;
+
+}
+.container{
+    border: solid 1px #130101;
+    display:flex;
+    padding:10px;
+    justify-content: start;
+    flex-direction:row;
+    aspect-ratio: 16/9;
+}
+input [type="button"]{
+    font-size: 2em;
+    padding: 3px;
+    background-color: aquamarine;
+    color:antiquewhite;
+    border-radius: 10px;
+    border: none;
+    aspect-ratio:200/100;
+
+}
+.count{
+border:solid 1px #fff;
+padding: 10px;
+
+}
+.row{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    aspect-ratio: 16/4;
+}
